@@ -1,0 +1,15 @@
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\bin\Release\DCMotorEncoderApp.exe.config
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\bin\Release\DCMotorEncoderApp.exe.manifest
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\bin\Release\DCMotorEncoderApp.application
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\bin\Release\DCMotorEncoderApp.exe
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\bin\Release\DCMotorEncoderApp.pdb
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\obj\Release\DCMotorEncoderApp.csproj.AssemblyReference.cache
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\obj\Release\DCMotorEncoderApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\obj\Release\DCMotorEncoderApp.Form1.resources
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\obj\Release\DCMotorEncoderApp.Properties.Resources.resources
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\obj\Release\DCMotorEncoderApp.csproj.GenerateResource.cache
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\obj\Release\DCMotorEncoderApp.csproj.CoreCompileInputs.cache
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\obj\Release\DCMotorEncoderApp.exe.manifest
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\obj\Release\DCMotorEncoderApp.application
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\obj\Release\DCMotorEncoderApp.exe
+C:\Users\anpha\Desktop\BTL\DCMotorEncoderApp\DCMotorEncoderApp\obj\Release\DCMotorEncoderApp.pdb

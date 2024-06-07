@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DCMotorEncoderApp.exe" version="1.0.0.4" publicKeyToken="c9a0944670e3f919" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DCMotorEncoderApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DCMotorEncoderApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DCMotorEncoderApp.exe" size="29072">
+      <assemblyIdentity name="DCMotorEncoderApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>K3bjfku+t4y8BELI0ooqvJgjRk5ncYBYAR2cvToU61A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DCMotorEncoderApp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DC\84935" issuerKeyHash="b6ae20902f9dead4166fffe63a189f0d3724adf7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hWdzvFdpfg+QWTUryLEc+A/ahk8n1gYhepv0Vt63om8=</DigestValue></Reference></SignedInfo><SignatureValue>FxZdcZ+NS2VeVvT9DZ7k06R+gC/pWGsotl/SrqgXaY9iGsysBC+C4Cz57rJ4s+ez1u8ZSVm/MdmeTyydqoiF7ymFivWap/Lidh+x87u2i8TAS5WthwmONqhHMVgGxdDVrUlD7WaRYIFrc7d39mpDiCZ3t4S9nWNTCaFUCm2BPk8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oUdEFinqsLfhjTJzU12EKP7l0Z2gvMFMhvQ3xDhqcUrqQV7NQc0ytqKtLq6elTnepz36LNwOHmjQI3jApo42JGEvUX32QxAznNIS9SuvytRuOl/4P+M2HjPu4Al4CvyjCMGxA3mnmNMlQcbn/a2YbLpMLUr/8lhCVa412JjQQ7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6fa2b7de56f49b7a2106d6274f86da0ff81cb1c82b3559900f7e6957bc736785" Description="" Url=""><as:assemblyIdentity name="DCMotorEncoderApp.exe" version="1.0.0.4" publicKeyToken="c9a0944670e3f919" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DC\84935</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>h3tAkzm1pKNlnijjFxxb5prIUrbnMXp0SLcZC6BDN5c=</DigestValue></Reference></SignedInfo><SignatureValue>k7XAhSvnCU3G4FLkhXOSgJUouxUlSkD0/hOmL4EODx9e2ZxmTqwedsbswZ9ekILhls937XhZTC1A4oTQUPtPy/V02FyMVghQu5TOOMYAaYN5HnSO2yPWFoaHzN453ECfN1b8+FKWY6wruXh1XVg96LHaImK6DgIsuG8KyAzXrXk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oUdEFinqsLfhjTJzU12EKP7l0Z2gvMFMhvQ3xDhqcUrqQV7NQc0ytqKtLq6elTnepz36LNwOHmjQI3jApo42JGEvUX32QxAznNIS9SuvytRuOl/4P+M2HjPu4Al4CvyjCMGxA3mnmNMlQcbn/a2YbLpMLUr/8lhCVa412JjQQ7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASKgAwIBAgIQWMbKhnb3yaJASj6RnZZtbDANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDHhAARABDAFwAOAA0ADkAMwA1MB4XDTIzMTIwNjAyNDU0MVoXDTI0MTIwNTA4NDU0MVowGzEZMBcGA1UEAx4QAEQAQwBcADgANAA5ADMANTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAoUdEFinqsLfhjTJzU12EKP7l0Z2gvMFMhvQ3xDhqcUrqQV7NQc0ytqKtLq6elTnepz36LNwOHmjQI3jApo42JGEvUX32QxAznNIS9SuvytRuOl/4P+M2HjPu4Al4CvyjCMGxA3mnmNMlQcbn/a2YbLpMLUr/8lhCVa412JjQQ7UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBCsedEC3VVZLwkt+Zhux/uylzq8ZftR13vwD+g4aukQZb7FLxdJbZQkVWsDYXpaqgfAeTlCX11rz2dO7V8XIR4N0BtN6xGBp0rYCtP6ve2rvgQ9YaxzwjLx+2v8mD5OntWD8Td9Z0v9Qsk28ZsaxeM/tg7LF57C6kUsvixaQQogg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
