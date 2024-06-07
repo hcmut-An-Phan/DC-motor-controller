@@ -1,0 +1,1 @@
+bt_chuong_4_hal\startup_stm32f407xx.o: startup_stm32f407xx.s

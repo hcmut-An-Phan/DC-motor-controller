@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"bt_chuong_4_hal\startup_stm32f407xx.o"
+"bt_chuong_4_hal\main.o"
+"bt_chuong_4_hal\stm32f4xx_it.o"
+"bt_chuong_4_hal\stm32f4xx_hal_msp.o"
+"bt_chuong_4_hal\stm32f4xx_hal_tim.o"
+"bt_chuong_4_hal\stm32f4xx_hal_tim_ex.o"
+"bt_chuong_4_hal\stm32f4xx_hal_rcc.o"
+"bt_chuong_4_hal\stm32f4xx_hal_rcc_ex.o"
+"bt_chuong_4_hal\stm32f4xx_hal_flash.o"
+"bt_chuong_4_hal\stm32f4xx_hal_flash_ex.o"
+"bt_chuong_4_hal\stm32f4xx_hal_flash_ramfunc.o"
+"bt_chuong_4_hal\stm32f4xx_hal_gpio.o"
+"bt_chuong_4_hal\stm32f4xx_hal_dma_ex.o"
+"bt_chuong_4_hal\stm32f4xx_hal_dma.o"
+"bt_chuong_4_hal\stm32f4xx_hal_pwr.o"
+"bt_chuong_4_hal\stm32f4xx_hal_pwr_ex.o"
+"bt_chuong_4_hal\stm32f4xx_hal_cortex.o"
+"bt_chuong_4_hal\stm32f4xx_hal.o"
+"bt_chuong_4_hal\stm32f4xx_hal_exti.o"
+"bt_chuong_4_hal\stm32f4xx_hal_uart.o"
+"bt_chuong_4_hal\system_stm32f4xx.o"
+--strict --scatter "BT_chuong_4_HAL\BT_chuong_4_HAL.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BT_chuong_4_HAL.map" -o BT_chuong_4_HAL\BT_chuong_4_HAL.axf
